@@ -5,9 +5,14 @@
   "dependencies": {
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "babel": "^5.8.38",
+    "bonjour": "^3.5.0",
+    "front-end": "file:",
+    "prettier": "^3.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "trusted-types": "^2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

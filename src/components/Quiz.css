@@ -69,3 +69,81 @@ p {
   font-weight: bold;
   margin: 10px 0;
 }
+
+/* Enhanced Answer Options styles */
+.options-list {
+  list-style: none;
+  padding: 0;
+}
+
+.option-item {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option-item:hover {
+  background-color: #f5f5f5;
+  transform: translateX(5px);
+}
+
+.option-item.selected {
+  background-color: #e3f2fd;
+  border-color: #2196f3;
+  color: #1976d2;
+  font-weight: 500;
+  transform: translateX(10px);
+}
+
+/* Quiz Completion styles */
+.quiz-completed {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.final-score {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.results-container {
+  margin: 20px 0;
+}
+
+.result-item {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.result-item.correct {
+  background-color: #e8f5e9;
+  border-color: #81c784;
+}
+
+.result-item.incorrect {
+  background-color: #ffebee;
+  border-color: #e57373;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.user-answer,
+.correct-answer {
+  margin: 5px 0;
+}
